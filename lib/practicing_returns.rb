@@ -1,6 +1,6 @@
 require 'pry'
 
-def hello(array)
+def my_collect(array)
   i = 0
   collection = []
   while i < array.length
@@ -10,4 +10,4 @@ def hello(array)
   collection
 end
 
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+my_collect(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
